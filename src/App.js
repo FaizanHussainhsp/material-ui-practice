@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button, Input } from "@mui/material";
+import ButtonVariant from "./component/button";
+import Inputf from "./component/input";
+import RadioButtonsGroup from "./component/radiobutton";
+import Radio from "./component/radiobutton";
+import SelectField from "./component/select";
+import Toggle from "./component/togglebutton";
+import Typo from "./component/typo/Typo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Typo /> */}
+      {/* <ButtonVariant /> */}
+      {/* <Toggle /> */}
+      {/* <Inputf /> */}
+      {/* <SelectField /> */}
+      {/* <Radio /> */}
+      {/* <RadioButtonsGroup /> */}
     </div>
   );
 }
